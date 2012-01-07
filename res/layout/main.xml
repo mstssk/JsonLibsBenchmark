@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/buttonJpp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" JPP " />
+
+    <Button
+        android:id="@+id/buttonGson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gson" />
+
+    <Button
+        android:id="@+id/buttonJsonic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JSONIC" />
+    
+    <Button
+        android:id="@+id/buttonJsonSimple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="json-simple" />
+    
+    <Button
+        android:id="@+id/buttonJsonLib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="json-lib" />
+   
+    <Button
+        android:id="@+id/buttonJackson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jackson" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textRap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+    </ScrollView>
+
+</LinearLayout>
